@@ -5,6 +5,10 @@ app.get('/', (req, res) => {
   res.send('<h1>Hello Dckr!!</h1>')
 })
 
+app.get('/sekret', (req, res) => {
+  res.send({ what: 'cookie'})
+})
+
 const PORT = 8080
 
 app.listen(PORT, () => {
