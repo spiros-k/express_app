@@ -1,8 +1,8 @@
 #!/bin/sh
-GITHUB_REPO="https://github.com/spiros-k/express_app.git"
-DOCKER_REPO="https://hub.docker.com/repository/docker/spiroskonstantinidis/express-app/general"
 
-git clone "$GITHUB_REPO"
+
+
+git clone "https://github.com/spiros-k/express_app.git"
 
 cd "express_app"
 
